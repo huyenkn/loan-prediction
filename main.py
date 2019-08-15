@@ -22,7 +22,7 @@ import flags
 
 def preprocess_data(data):
 	"""
-		Munge raw data:
+		Munge raw input data:
 		1. Detecting missing values
 		2. Filling missing values
 		3. Construct new features
