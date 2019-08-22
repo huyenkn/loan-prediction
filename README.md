@@ -13,8 +13,8 @@ Before training the data, I implemented the following munging data process:
 Detect and fix different types of missing values.
 	
 2. Filling missing values
-2.1. Fill missing values in categorical columns.
 
+2.1. Fill missing values in categorical columns.
 Use 'Mode' to fill missing values in categorical columns since:
 - Mode is suitable for categorical data
 - The number of missing values in each column is very small compared to the total population (below 5%)
