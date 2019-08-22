@@ -1,6 +1,8 @@
 # loan-prediction
-This repository is part of a loan eligibility process based on customer details provided after customers complete their online loan application form. My target is to predict loan status of the customers in the dataset (predict who are eligible for loan approval). 
-Evaluation Metric is accuracy (percentage of the loan approvals that are correctly predicted)
+ 
+This repository is based on the [Analytics Vidhya tutorial](https://www.analyticsvidhya.com/blog/2016/01/complete-tutorial-learn-data-science-python-scratch-2/) on its [loan prediction problem](https://datahack.analyticsvidhya.com/contest/practice-problem-loan-prediction-iii/). I implement scripts to (a) download the loan prediction data and (b) run several machine learning methods (random forest, logistic regression, decision tree) on this problem. 
+
+The loan prediction problem predicts loan eligibility based on customer information provided after customers complete their online loan application forms. Performance is measured by accuracy (percentage of the loan approvals that are correctly predicted).
 
 The training and test set are Pandas DataFrames (read from CSV files, whose shapes are (614, 13) and (367, 12) respectively). Each row contains features for a customer. Each column is a feature (Gender, Marital Status, Education, Number of Dependents, Income, Loan Amount, Credit History and others...).
 LoanAmount, ApplicantIncome, and CoapplicantIncome columns are continuous; the others are categorical. 
