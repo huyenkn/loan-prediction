@@ -6,7 +6,7 @@ The training and test set are Pandas DataFrames (read from CSV files, whose shap
 LoanAmount, ApplicantIncome, and CoapplicantIncome columns are continuous; the others are categorical. 
 
 In this repository, I applied three model algorithms: Logistic regression, Random forest, and Decision tree.
-At best, the model achieves ...% accuracy.
+At best, the model achieves 80,946% accuracy.
 
 Before training the data, I implemented the following munging data process:
 1. Detecting missing values
