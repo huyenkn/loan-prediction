@@ -7,7 +7,7 @@ The loan prediction problem predicts loan eligibility based on customer informat
 The training and test set are Pandas DataFrames (read from CSV files, whose shapes are (614, 13) and (367, 12) respectively). Each row contains features for a customer. Each column is a feature (Gender, Marital Status, Education, Number of Dependents, Income, Loan Amount, Credit History and others...).
 LoanAmount, ApplicantIncome, and CoapplicantIncome columns are continuous; the others are categorical. 
 
-In this repository, I applied three model algorithms: Logistic regression, Random forest, and Decision tree. The best model, logistic regression, achieves 80.9% in accuracy with 5-fold cross-validation. 
+In this repository, I applied three model algorithms: Logistic regression, Random forest, and Decision tree. The best model, logistic regression, achieves **80.9% in accuracy** with 5-fold cross-validation. 
 
 Before training the data, I implemented the following munging data process:
 1. Detecting missing values
