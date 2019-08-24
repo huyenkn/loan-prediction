@@ -18,6 +18,7 @@ Data is pre-processed as follows:
 2. Fill in missing values
 
 2.1. Fill in missing values of categorical columns.
+
 Replace missing values with mode (most frequent) values of the corresponding columns. Using 'mode' because:
 - Mode is suitable for categorical data;
 - The number of missing values in each column is small compared to the total population (below 5%);
@@ -28,6 +29,7 @@ The approach to handling missing values heavily depends on the nature of the dat
 Hence, if the data seriously violate this assumption, one may consider using more advanced predictive techniques (e.g. machine learning algorithms) to exploit the correlations among variables.
 
 2.2. Fill in missing values of continuous columns.
+
 Replace missing values with grouped median values. For example, with the "LoanAmount" column, I compute the median value for every pair of values in the "Self_Employed" and "Education" columns. Then each missing value is replaced by the median value corresponding to the values of the measured "Self_Employed" and "Education" values in the same row.  Use `grouped median` because:
 - Median is suitable for continuous data
 - The number of missing values in each column is small compared to the total population (below 5%)
