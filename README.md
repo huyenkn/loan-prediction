@@ -36,8 +36,10 @@ Replace missing values with grouped median values. For example, with the "LoanAm
 - Taking into account dependency of a variable on others results in better estimation than treating it as being independent from others.
 
 3. Construct new features 
+
 Use log-transformation to reduce skewness in columns "LoanAmount" and "TotalIncome".
 
 4. Convert categorical features to numeric. 
+
 Convert all categorical variables into numeric because `sklearn` requires all inputs to be numeric.
 
