@@ -6,7 +6,7 @@ The loan prediction problem predicts loan eligibility based on customer informat
 
 ### Data format
 
-The training and test set are Pandas DataFrames (read from CSV files, whose shapes are (614, 13) and (367, 12) respectively). Each row contains features for a customer. Each column is a feature (Gender, Marital Status, Education, Number of Dependents, Income, Loan Amount, Credit History and others...).
+The training and test set are Pandas DataFrames (read from CSV files, whose shapes are (614, 13) and (367, 12) respectively). Each row contains features for a customer. Each column is a feature (gender, marital status, education, number of dependents, income, loan amount, credit history, ...).
 LoanAmount, ApplicantIncome, and CoapplicantIncome columns are continuous; the others are categorical. 
 
 ### Data pre-processing
