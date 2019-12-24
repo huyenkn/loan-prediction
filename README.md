@@ -1,6 +1,6 @@
 # loan-prediction
  
-This repository is based on the [Analytics Vidhya tutorial](https://www.analyticsvidhya.com/blog/2016/01/complete-tutorial-learn-data-science-python-scratch-2/) on its [loan prediction problem](https://datahack.analyticsvidhya.com/contest/practice-problem-loan-prediction-iii/). I implement scripts to (a) download the loan prediction data and (b) run several machine learning methods (random forest, logistic regression, decision tree) on this problem. 
+This repository is based on the Analytics Vidhya tutorial on its [loan prediction problem](https://datahack.analyticsvidhya.com/contest/practice-problem-loan-prediction-iii/). I implement scripts to (a) download the loan prediction data and (b) run several machine learning methods (random forest, logistic regression, decision tree) on this problem. 
 
 The loan prediction problem predicts loan eligibility based on customer information provided after customers complete their online loan application forms. Performance is measured by accuracy (percentage of the loan approvals that are correctly predicted). I apply three methods (from `sklearn`): Logistic regression, Random forest, and Decision tree. The best method, logistic regression, achieves **80.9% in accuracy** with 5-fold cross-validation. 
 
